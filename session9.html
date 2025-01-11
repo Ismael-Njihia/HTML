@@ -1,0 +1,52 @@
+<!--Today we are going to learn aboput HTML forms-->
+<!--creating forms, their common elements - text fields - Passwords fields, buttons, labels-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learning HTML Forms</title>
+    <style>
+        body{
+           background-color: black;
+           color: white;
+           margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h3> On this day 10th January 2025, we will learn about HTML forms</h3>
+
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+
+        <br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname">
+
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email">
+
+        <br><br>
+        <label for="password"> Password: </label>
+        <input type="password" id="password">
+        <br><br>
+
+        <input type="tel" id="phone" placeholder="Enter the Phone Number">
+        <input type="number" id="age" placeholder="Enter your age">
+        <input type="text" id="color" placeholder="Enter your favorite color">
+        <input type="datetime" id="time" placeholder="Enter the time you will leave">
+
+        <br><br>
+        <textarea id="notes" rows="20" placeholder="Enter your story">
+
+        </textarea>
+        
+
+        <br><br>
+        <button type="submit"> Submit</button>
+
+    </form>
+    
+</body>
+</html>
